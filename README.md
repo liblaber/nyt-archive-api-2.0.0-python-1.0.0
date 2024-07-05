@@ -1,6 +1,6 @@
-# NytarchivesSdk Python SDK 1.0.0
+# NYT Archives Python SDK 1.0.0
 
-Welcome to the NytarchivesSdk SDK documentation. This guide will help you get started with integrating and using the NytarchivesSdk SDK in your project.
+Welcome to the NYT Archives SDK SDK documentation. This guide will help you get started with integrating and using the NYT Archives SDK in your project.
 
 ## Versions
 

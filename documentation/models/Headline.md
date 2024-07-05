@@ -1,0 +1,13 @@
+# Headline
+
+**Properties**
+
+| Name           | Type | Required | Description |
+| :------------- | :--- | :------- | :---------- |
+| main           | str  | ❌       |             |
+| kicker         | str  | ❌       |             |
+| content_kicker | str  | ❌       |             |
+| print_headline | str  | ❌       |             |
+| name           | str  | ❌       |             |
+| seo            | str  | ❌       |             |
+| sub            | str  | ❌       |             |

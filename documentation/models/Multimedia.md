@@ -1,0 +1,30 @@
+# Multimedia
+
+**Properties**
+
+| Name      | Type   | Required | Description |
+| :-------- | :----- | :------- | :---------- |
+| rank      | int    | ❌       |             |
+| subtype   | str    | ❌       |             |
+| sub_type  | str    | ❌       |             |
+| caption   | str    | ❌       |             |
+| credit    | str    | ❌       |             |
+| type\_    | str    | ❌       |             |
+| url       | str    | ❌       |             |
+| height    | int    | ❌       |             |
+| width     | int    | ❌       |             |
+| legacy    | Legacy | ❌       |             |
+| crop_name | str    | ❌       |             |
+
+# Legacy
+
+**Properties**
+
+| Name            | Type | Required | Description |
+| :-------------- | :--- | :------- | :---------- |
+| xlarge          | str  | ❌       |             |
+| xlargewidth     | int  | ❌       |             |
+| xlargeheight    | int  | ❌       |             |
+| thumbnail       | str  | ❌       |             |
+| thumbnailwidth  | int  | ❌       |             |
+| thumbnailheight | int  | ❌       |             |

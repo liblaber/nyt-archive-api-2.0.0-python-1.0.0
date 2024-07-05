@@ -1,0 +1,165 @@
+{
+  "liblabVersion": "2.1.18",
+  "date": "2024-07-01T15:15:58.250Z",
+  "config": {
+    "apiId": 232,
+    "sdkName": "nytarchives-sdk",
+    "sdkVersion": "1.0.0",
+    "liblabVersion": "2",
+    "deliveryMethods": ["zip"],
+    "languages": ["python"],
+    "apiVersion": "1.0.0",
+    "apiName": "test-api",
+    "specFilePath": "spec.yaml",
+    "languageOptions": {
+      "python": {
+        "alwaysInitializeOptionals": false,
+        "additionalConstructorParameters": [
+          {
+            "name": "api_key"
+          }
+        ],
+        "pypiPackageName": "nyt-archives",
+        "githubRepoName": "",
+        "ignoreFiles": [],
+        "liblabVersion": "2",
+        "sdkVersion": "1.0.0"
+      },
+      "typescript": {
+        "bundle": false,
+        "exportClassDefault": false,
+        "httpClient": "axios",
+        "npmName": "nyt-archives",
+        "npmOrg": "",
+        "githubRepoName": "",
+        "ignoreFiles": [],
+        "liblabVersion": "2",
+        "sdkVersion": "1.0.0"
+      }
+    },
+    "publishing": {
+      "githubOrg": ""
+    },
+    "devContainer": true,
+    "generateEnv": true,
+    "includeOptionalSnippetParameters": true,
+    "inferServiceNames": false,
+    "injectedModels": [],
+    "license": {
+      "type": "MIT",
+      "name": "MIT",
+      "url": "https://opensource.org/licenses/MIT",
+      "path": "MIT.ejs"
+    },
+    "responseHeaders": false,
+    "retry": {
+      "enabled": true,
+      "maxAttempts": 3,
+      "retryDelay": 150,
+      "maxDelay": 5000,
+      "retryDelayJitter": 50,
+      "backOffFactor": 2,
+      "httpCodesToRetry": [408, 429, 500, 502, 503, 504],
+      "httpMethodsToRetry": ["GET", "POST", "PUT", "DELETE", "PATCH", "HEAD", "OPTIONS"]
+    },
+    "multiTenant": true,
+    "hooksLocation": {
+      "bucketKey": "6002/hooks.zip",
+      "bucketName": "prod-liblab-api-stack-hooks"
+    },
+    "specUrl": "https://prod-liblab-api-stack-specs.s3.us-east-1.amazonaws.com/232/open-api-spec.yaml?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIA5P3QKKDKGVNIJ2H7%2F20240701%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240701T151557Z&X-Amz-Expires=43200&X-Amz-Signature=466e8d034f72df76835f0f08d4e1f9dacc65bd105ee4191cb6533125ebc0dbea&X-Amz-SignedHeaders=host&x-id=GetObject",
+    "includeWatermark": false,
+    "alwaysInitializeOptionals": false,
+    "additionalConstructorParameters": [
+      {
+        "name": "api_key"
+      }
+    ],
+    "pypiPackageName": "nyt-archives",
+    "githubRepoName": "",
+    "ignoreFiles": [],
+    "language": "python",
+    "deliveryMethod": "zip",
+    "hooks": {
+      "enabled": true,
+      "sourceDir": "/tmp/resources/hooks"
+    },
+    "usesFormData": false,
+    "authentication": {},
+    "environmentVariables": [],
+    "fileOutput": "/tmp",
+    "httpLibrary": {
+      "name": "axios",
+      "packages": {
+        "axios": "^1.6.8"
+      },
+      "languages": ["typescript"]
+    },
+    "auth": [],
+    "customQueries": {
+      "paths": [],
+      "rawQueries": [],
+      "queriesData": []
+    }
+  },
+  "files": [
+    "src/nytarchives_sdk/models/base.py",
+    "src/nytarchives_sdk/models/utils/json_map.py",
+    "src/nytarchives_sdk/models/__init__.py",
+    "src/nytarchives_sdk/services/__init__.py",
+    "src/nytarchives_sdk/__init__.py",
+    "src/nytarchives_sdk/net/__init__.py",
+    "src/nytarchives_sdk/net/headers/__init__.py",
+    "src/nytarchives_sdk/net/transport/__init__.py",
+    "src/nytarchives_sdk/hooks/__init__.py",
+    "src/nytarchives_sdk/net/environment/__init__.py",
+    "src/nytarchives_sdk/net/request_chain/__init__.py",
+    "src/nytarchives_sdk/net/request_chain/handlers/__init__.py",
+    "src/nytarchives_sdk/net/transport/request.py",
+    "src/nytarchives_sdk/net/transport/response.py",
+    "src/nytarchives_sdk/net/transport/request_error.py",
+    "src/nytarchives_sdk/sdk.py",
+    "src/nytarchives_sdk/net/transport/serializer.py",
+    "src/nytarchives_sdk/services/utils/validator.py",
+    "src/nytarchives_sdk/services/utils/base_service.py",
+    "pyproject.toml",
+    ".gitignore",
+    "src/nytarchives_sdk/models/utils/cast_models.py",
+    "src/nytarchives_sdk/net/transport/utils.py",
+    "src/nytarchives_sdk/hooks/hook.py",
+    "install.sh",
+    "install.cmd",
+    "examples/install.sh",
+    "examples/install.cmd",
+    "src/nytarchives_sdk/net/headers/base_header.py",
+    "src/nytarchives_sdk/net/environment/environment.py",
+    "src/nytarchives_sdk/net/request_chain/request_chain.py",
+    "src/nytarchives_sdk/net/request_chain/handlers/base_handler.py",
+    "src/nytarchives_sdk/net/request_chain/handlers/http_handler.py",
+    "src/nytarchives_sdk/net/request_chain/handlers/hook_handler.py",
+    "src/nytarchives_sdk/net/request_chain/handlers/retry_handler.py",
+    "examples/sample.py",
+    ".env.example",
+    "/examples/.env.example",
+    "src/nytarchives_sdk/services/utils/default_headers.py",
+    "./LICENSE",
+    ".devcontainer/devcontainer.json",
+    "documentation/models/Article.md",
+    "documentation/models/Headline.md",
+    "documentation/models/Keyword.md",
+    "documentation/models/Byline.md",
+    "documentation/models/Person.md",
+    "src/nytarchives_sdk/services/archive.py",
+    "documentation/models/Multimedia.md",
+    "src/nytarchives_sdk/models/article.py",
+    "src/nytarchives_sdk/models/headline.py",
+    "src/nytarchives_sdk/models/keyword.py",
+    "src/nytarchives_sdk/models/byline.py",
+    "src/nytarchives_sdk/models/person.py",
+    "documentation/services/ArchiveService.md",
+    "documentation/models/GetByYearMonthJsonOkResponse.md",
+    "src/nytarchives_sdk/models/multimedia.py",
+    "src/nytarchives_sdk/models/get_by_year_month_json_ok_response.py",
+    "README.md"
+  ]
+}

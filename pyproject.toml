@@ -8,7 +8,7 @@ build-backend = "setuptools.build_meta"
 name = "nyt-archives"
 version = "1.0.0"
 license = { text = "MIT" }
-description = """"""
+description = """Welcome to the NytArchives SDK documentation. This guide will help you get started with integrating and using the NytArchives SDK in your project."""
 readme = "README.md"
 requires-python = ">=3.7"
 dependencies = [
